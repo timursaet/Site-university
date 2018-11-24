@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Фотогалерея</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" type="text/css" href="slide.css">
+</head>
+<body>
+<nav>
+ <!--   <ul>
+        <li><a href="index.html">Лабораторная работа 1</a></li>
+        <li><a href="task.html">Лабораторная работа 2</a></li>
+        <li><a href="test.html">Лабораторная работа 3</a></li>
+        <li><a href="homePage/about.html">Home page</a></li>
+    </ul>
+    <a href="#" id="pull">Меню</a>-->
+           <div class="nav11">
+              <span class="ss"><a href="index.html">Лабораторная работа 1</a></span>
+              <span class="ss"><a href="task.html">Лабораторная работа 2</a></span>
+              <span class="ss"><a href="test.html">Лабораторная работа 3</a></span>
+              <span class="ss"><a href="homePage/about.html">Home page</a></span>
+              </div>
+</nav>
+
+<ul id="slides">
+    <li class="slide showing"><!--Slide 1--></li>
+    <li class="slide"><!--Slide 2--></li>
+    <li class="slide"><!--Slide 3--></li>
+    <li class="slide"><!--Slide 4--></li>
+    <li class="slide"><!--Slide 5--></li>
+</ul>
+<div class="button">
+<button class="controls" id="pause">Пауза</button>
+                    <button class="controls" id="previous">Назад</button>
+                    <button class="controls" id="next">Дальше</button>
+                    </div>
+
+
+    <script src="slide.js"></script>
+</body>
+</html>
